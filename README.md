@@ -8,8 +8,8 @@
 2. Run `./verus --version` in the unzipped folder. It prints the Rust toolchain it
    needs. Install it with `rustup install <toolchain>` (get rustup at https://rustup.rs).
    On macOS you may first need `xattr -d com.apple.quarantine -r <unzipped folder>`.
-3. Put that folder on your `PATH`.
-4. Install the `verus-analyzer` VS Code extension, and disable Rust analyzer. 
+3. Add that directory to your `PATH`.
+4. Install the `verus-analyzer` VS Code extension (and disable Rust analyzer). 
 
 Check a file:
 
