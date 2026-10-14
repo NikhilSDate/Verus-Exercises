@@ -1,8 +1,5 @@
 # Verus exercises
 
-Each file has `// TODO`s. Fill them in until `verus <file>` reports `0 errors`.
-Don't change the `requires`/`ensures` or the executable code.
-
 ## Setup
 
 1. Download the latest release for your platform from
