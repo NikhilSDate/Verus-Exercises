@@ -31,7 +31,8 @@ fn fib_iter(n: u64) -> (r: u64)
     let mut cur: u64 = 1;
     for i in 1..n
         invariant
-            // TODO
+            cur as nat == fib(i as nat),
+			prev as nat == fib((i - 1) as nat)
     {
         // TODO
         let next = prev + cur;

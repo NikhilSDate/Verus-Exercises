@@ -70,6 +70,12 @@ impl<V> DList<V> {
             },
         }
         // TODO: update len, re-establish wf
+
+		let (p1, Tracked(perm1)) = PPtr::new(1u64);
+		let (p2, Tracked(perm2)) = PPtr::new(2u64);
+
+		p1.free(Tracked(perm1));             // perm1 is consumed here
+		let x = p1.borrow(Tracked(&perm2));  // verification error:
     }
 
     pub fn pop_back(&mut self) -> (r: Option<V>)

@@ -22,3 +22,11 @@ path = "ex2_doubly_linked.rs"
 [[bin]]
 name = "ex2_doubly_linked_unsafe"
 path = "ex2_doubly_linked_unsafe.rs"
+
+[[bin]]
+name = "ex1_fib_solution"
+path = "solutions/ex1_fib.rs"
+
+[[bin]]
+name = "ex2_doubly_linked_solution"
+path = "solutions/ex2_doubly_linked.rs"
